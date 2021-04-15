@@ -1,9 +1,19 @@
+@import 'config';
+@import 'music_container';
+@import 'navigation';
+@import 'buttons';
+
 * {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
 }
 
 body {
-    background: black;
+    height: 100vh;
+    margin: 0;
+    font-family: $font-stack;
+    background-image: linear-gradient(0deg, rgb(247, 247, 247) 23.8%, rgb(252, 221, 221) 92%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

@@ -1,0 +1,18 @@
+.action-btn {
+    background-color: #fff;
+    border: none;
+    color: #dfdbdf;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px;
+    margin: 0 20px;
+
+    &-big {
+        color: #cdc2d0;
+        font-size: 30px;
+    }
+
+    &:focus {
+        outline: 0;
+    }
+}
